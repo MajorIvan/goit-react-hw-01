@@ -1,8 +1,8 @@
-import './Profile.css';
+import css from './Profile.module.css';
 
 const Profile = ({ image, name, tag, location, stats }) => {
     return (
-      <div className="profile">
+      <div className={css.profile}>
         <div className="description">
           <img
             src={image}
