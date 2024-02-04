@@ -1,3 +1,5 @@
+import './FriendListItem.css';
+
 const FriendListItem = ({ friend: { avatar, name, isOnline }}) => {
     return (
         <div className="item">

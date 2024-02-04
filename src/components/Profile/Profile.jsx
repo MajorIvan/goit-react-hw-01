@@ -1,3 +1,5 @@
+import './Profile.css';
+
 const Profile = ({ image, name, tag, location, stats }) => {
     return (
       <div className="profile">
