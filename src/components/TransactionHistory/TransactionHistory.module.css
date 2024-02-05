@@ -1,3 +1,16 @@
 .transactionHistory {
-    
+    background-color: rgb(41, 41, 41);
+    width: 35%;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    text-transform: capitalize;
+}
+tbody tr:nth-child(odd) {
+    background-color: whitesmoke;
+    color: black;
+}
+tbody tr:nth-child(even) {
+    background-color: grey;
+    color: black;
 }

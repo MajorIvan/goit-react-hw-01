@@ -1,14 +1,22 @@
 .item {
-
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 85px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
 }
 .avatar {
-
+    margin-bottom: 10px;
 }
 .name {
-
+    color: black;
 }
 .status {
-    
+    font-weight: bold;
 }
 .online {
     composes: status;
